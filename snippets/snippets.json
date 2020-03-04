@@ -1,0 +1,27 @@
+{
+  "new Text": {
+    "prefix": "@Text",
+    "body": ["Text($1),"],
+    "description": "generate Text component"
+  },
+  "new Image": {
+    "prefix": "@Image",
+    "body": ["Image($1),"],
+    "description": "generate Image Component"
+  },
+  "new VStack Container": {
+    "prefix": "@VStack",
+    "body": ["VStack(\n\t$1\n),"],
+    "description": "generate Vertical Stack Component"
+  },
+  "new HStack Container": {
+    "prefix": "@HStack",
+    "body": ["HStack(\n\t$1\n),"],
+    "description": "generate Horizontal Stack Component"
+  },
+  "new Button": {
+    "prefix": "@Button",
+    "body": ["Button($1),"],
+    "description": "generate Button Component"
+  }
+}
